@@ -1,0 +1,20 @@
+Tuple;
+def get_location():
+    return (40.7128, -74.0060)
+
+lat, lon = get_location()
+print(f"Latitude: {lat}, Longitude: {lon}")
+
+
+Lists;
+tasks = []
+for i in range(3):
+    tasks.append(input(f"Task {i+1}: "))
+
+print("Here's your to-do list:", tasks)
+
+
+Ranges;
+for i in range(5):
+    print(i)  # Prints 0 to 4
+print(list(range(2, 10, 2)))  # [2, 4, 6, 8]
